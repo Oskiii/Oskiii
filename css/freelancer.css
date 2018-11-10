@@ -351,6 +351,16 @@ a:focus, a:hover, a:active {
   background-color: #e25858 !important;
 }
 
+button.bg-primary:hover,
+button.bg-primary:active {
+  background-color: #da2d2d !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #e25858 !important;
+  border-color: #e25858 !important;
+}
+
 .bg-secondary {
   background-color: #384252 !important;
 }
